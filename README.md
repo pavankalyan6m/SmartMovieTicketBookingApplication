@@ -1,4 +1,5 @@
 Smart Movie Ticket Booking System with MAYA Chatbot
+
 The Smart Movie Ticket Booking System is a full-stack movie ticket booking application that leverages a Python-based chatbot (called MAYA) to identify user intents and provide personalized suggestions. The Java-based backend manages movie-related data including movie details, show timings, theaters, ratings, users, and admin functionalities.
 
 Table of Contents
