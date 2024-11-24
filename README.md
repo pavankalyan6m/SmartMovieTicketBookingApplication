@@ -129,6 +129,7 @@ Setup Instructions
 Follow the instructions in the Getting Started section to install and run the Python backend locally.
 
 Key Technologies:
+
 Flask/Django: Web framework for building APIs.
 NLTK or spaCy: For natural language processing (NLP) to understand and classify user intents.
 TensorFlow (optional): If using machine learning for more advanced intent recognition.
