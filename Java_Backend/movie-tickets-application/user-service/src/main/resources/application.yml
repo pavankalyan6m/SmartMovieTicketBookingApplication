@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: user-service  # Name of the user service
+
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/smart_movie_tickets_application  # MongoDB URI
+
+server:
+  port: 8000  # Set the port to 8000 for user-service
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/  # Eureka server URL
+  instance:
+    metadata-map:
+      instanceId: ${spring.application.name}:${random.value}
+    prefer-ip-address: true
+    non-secure-port: 8000  # Port for the user-service to register with Eureka

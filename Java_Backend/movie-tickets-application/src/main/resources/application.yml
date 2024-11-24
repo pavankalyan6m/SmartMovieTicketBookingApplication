@@ -1,0 +1,9 @@
+server:
+  port: 8761  # The default Eureka Server port
+
+spring:
+  application:
+    name: eureka-server
+  cloud:
+    compatibility-verifier:
+      enabled: false
